@@ -2,6 +2,10 @@
   "name": "api",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "build": "npm i"
+  },
   "license": "MIT",
   "type": "module",
   "dependencies": {

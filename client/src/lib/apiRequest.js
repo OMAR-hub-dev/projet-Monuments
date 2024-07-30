@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-    baseURL: 'http://localhost:8800/api',
+    baseURL: 'https://projet-monuments-rh72.onrender.com/api',
     withCredentials: true,
 })
 

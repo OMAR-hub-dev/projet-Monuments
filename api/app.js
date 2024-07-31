@@ -17,6 +17,8 @@ app.use("/api/test", testRoute);
 app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
 
-app.listen(8800, () => {
+const port = process.env.PORT || 8800;
+
+app.listen(port, () => {
     console.log("Server is running!");
 });
